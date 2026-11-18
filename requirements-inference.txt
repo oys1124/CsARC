@@ -1,0 +1,11 @@
+-r requirements.txt
+transformers
+sentencepiece
+safetensors
+opencv-python
+pandas
+lpips
+pytorch-msssim
+DISTS-pytorch
+# Image coding uses the included RangeCoder in both inference paths.
+# torchac is only needed for HPRC's optional arithmetic caption mode.
